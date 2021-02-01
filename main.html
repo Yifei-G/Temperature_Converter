@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tempeture converter</title>
+    <link href="./css/main.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+    <header>
+        <h1>Temperature Unit Converter</h1>
+    </header>
+    
+    <main id="app">
+        <div id="control-area">
+            <!-- Convertion is automatic-->
+            <!-- This component is not necessary anymore-->
+            <!-- <button onclick="getUserInput()">Convert</button> -->
+
+            <div id="unit-component">
+                <label>Input Unit:</label>
+                <label for="unit-switch">C</label>
+                <label class="switch">
+                    <input id="unit-switch" type="checkbox" />
+                    <span class="slider"></span>
+                </label>
+                <label for="unit-switch">F</label>   
+            </div>
+        </div>
+
+        <div id="input-area">
+            <div id="input-component">
+                <label for="temperature-input">Input temperature:</label>
+                <input id="temperature-input" type="text"  />
+            </div>
+
+            <div id="result-component">
+                <label>Result:</label>
+                <span id="result"></span>
+            </div>
+        </div>
+    </main>
+</body>
+<script src="./js/main.js"></script>
+</html>
