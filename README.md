@@ -1,6 +1,6 @@
 # Temperature_Converter
 
-##About this repository
+## About this repository
 
 This is a simple temperature converter implemented using vanilla javascript (ES6).
 
